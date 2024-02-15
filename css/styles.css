@@ -1,9 +1,11 @@
+/* Reset styles for all elements */
 *{
     margin: 0;
     padding: 0;
     font-size: "Palatino", sans-serif;
     box-sizing: border-box;
 }
+/* Styles for the header section */
 #header{
     width: 100%;
     height: 100vh;
@@ -11,6 +13,7 @@
     background-size: cover;
     background-position: center;
 }
+/* Styles for the logo */
 .logo{
     opacity: 0.9;
     width: 225px;
@@ -18,6 +21,7 @@
     position: fixed;
 
 }
+/* Styles for the navigation */
 nav{
     display: flex;
     align-items: center;
@@ -25,6 +29,7 @@ nav{
     flex-wrap: wrap;
     margin-right: 10%;
 }
+/* Styles for the navigation links */
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -37,7 +42,7 @@ nav ul li a{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: relative;
 }
-
+/* Styles for the hover effect on navigation links */
 nav ul li a::after{
     content: " ";
     width: 0%;
@@ -51,6 +56,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+/* Styles for the header text */
 .header-text{
     margin-top: 15%;
     font-size: 60px;
@@ -67,7 +73,7 @@ nav ul li a:hover::after{
 .about-container{
     position: relative;
 }
-
+/* Styles for the second header section */
 #header1 {
     width: 100%;
     height: 100vh;
@@ -84,6 +90,7 @@ nav ul li a:hover::after{
     list-style: none;
     margin: 30px 30px;
 }
+/* Styles for the second logo */
 .logo1{
     opacity: 0.9;
     width: 225px;
@@ -91,6 +98,7 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
 }
+/* Styles for the second navigation */
 nav1{
     display: flex;
     align-items: center;
@@ -98,6 +106,7 @@ nav1{
     flex-wrap: wrap;
     margin-right: 10%;
 }
+/* Styles for the second navigation links */
 nav1 ul1 li{
     display: inline-block;
     list-style: none;
@@ -110,6 +119,7 @@ nav1 ul1 li a{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: relative;
 }
+/* Styles for the hover effect on second navigation links */
 nav1 ul1 li a::after{
     content: " ";
     width: 0%;
@@ -133,6 +143,7 @@ nav1 ul1 li a::after{
 nav1 ul1 li a:hover::after{
     width: 100%;
 }
+/* Styles for the sub title */
 .sub-title{
     margin-top: 5%;
     font-size: 50px;
@@ -156,6 +167,7 @@ nav1 ul1 li a:hover::after{
     align-items: center;
 
 }
+/* Styles for the second about container */
 nav2{
     display: flex;
     align-items: center;
@@ -163,6 +175,7 @@ nav2{
     flex-wrap: wrap;
     margin-right: 10%;
 }
+/* Styles for the third navigation links */
 nav2 ul2 li{
     display: inline-block;
     list-style: none;
@@ -175,6 +188,7 @@ nav2 ul2 li a{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: relative;
 }
+/* Styles for the hover effect on third navigation links */
 nav2 ul2 li a::after{
     content: " ";
     width: 0%;
@@ -198,6 +212,7 @@ nav2 ul2 li a::after{
 nav2 ul2 li a:hover::after{
     width: 100%;
 }
+/* Styles for the third logo */
 .logo2{
     opacity: 0.9;
     width: 200px;
@@ -205,6 +220,7 @@ nav2 ul2 li a:hover::after{
     position: absolute;
     left: 0;
 }
+/* Styles for the interest title */
 .interst-title{
     margin-top: 5%;
     font-size: 40px;
@@ -213,6 +229,7 @@ nav2 ul2 li a:hover::after{
     width: 100%;
     text-align:left;
 }
+/* Styles for the third header section */
 #header2 {
     width: 100%;
     height: 100vh;
@@ -224,6 +241,7 @@ nav2 ul2 li a:hover::after{
     align-items: right;
 
 }
+/* Styles for the videos section */
 .videos {
     display: flex;
     gap: 20px; 
@@ -233,12 +251,14 @@ nav2 ul2 li a:hover::after{
     width: 50%;
     height: 400px;
 }
+/* Styles for the fourth logo */
 .logo3{
     opacity: 0.9;
     width: 225px;
     float: left;
     position: fixed;
 }
+/* Styles for the fourth navigation */
 nav3{
     display: flex;
     align-items: center;
@@ -246,6 +266,7 @@ nav3{
     flex-wrap: wrap;
     margin-right: 10%;
 }
+/* Styles for the fourth navigation links */
 nav3 ul3 li{
     display: inline-block;
     list-style: none;
@@ -258,6 +279,7 @@ nav3 ul3 li a{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: relative;
 }
+/* Styles for the hover effect on fourth navigation links */
 nav3 ul3 li a::after{
     content: " ";
     width: 0%;
@@ -272,6 +294,7 @@ nav3 ul3 li a::after{
 nav3 ul3 li a:hover::after{
     width: 100%;
 }
+/* Styles for the third header text */
 .header-text3{
     margin-top: 15%;
     font-size: 50px;
@@ -285,6 +308,7 @@ nav3 ul3 li a:hover::after{
     margin-top: 10px;
     color: black;
 }
+/* Styles for the contact title */
 .contact-title {
     margin-top: 10%;
     font-size: 40px;
@@ -293,6 +317,7 @@ nav3 ul3 li a:hover::after{
     width: 100%;
     text-align: center;
 }
+/* Styles for the contact title */
 #header3{
     width: 100%;
     height: 100vh;
@@ -303,12 +328,14 @@ nav3 ul3 li a:hover::after{
 .instagram-link {
     text-align: center;
 }
+/* Styles for the fourth logo */
 .logo4{
     opacity: 0.9;
     width: 225px;
     float: left;
     position: fixed;
 }
+/* Styles for the fifth navigation */
 nav4{
     display: flex;
     align-items: center;
@@ -316,6 +343,7 @@ nav4{
     flex-wrap: wrap;
     margin-right: 10%;
 }
+/* Styles for the fifth navigation links */
 nav4 ul4 li{
     display: inline-block;
     list-style: none;
@@ -328,6 +356,7 @@ nav4 ul4 li a{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     position: relative;
 }
+/* Styles for the hover effect on fifth navigation links */
 nav4 ul4 li a::after{
     content: " ";
     width: 0%;
@@ -342,6 +371,7 @@ nav4 ul4 li a::after{
 nav4 ul4 li a:hover::after{
     width: 100%;
 }
+/* Styles for the fifth header text */
 .header-text4{
     margin-top: 15%;
     font-size: 50px;
@@ -356,6 +386,7 @@ nav4 ul4 li a:hover::after{
     color: white;
     text-align: center;
 }
+/* Styles for the resume title */
 .resume-title {
     margin-top: 10%;
     font-size: 40px;
@@ -371,6 +402,7 @@ nav4 ul4 li a:hover::after{
     background-size: cover;
     background-position: center;
 }
+/* Styles for the resume button */
 .resume-button {
     display: inline-block;
     padding: 8px 12px;
@@ -380,9 +412,11 @@ nav4 ul4 li a:hover::after{
     border-radius: 20px;
     font-size: 14px; 
 }
+/* Hover effect for the resume button */
 .resume-button:hover {
     background-color: grey;
 }
+/* Styles for the image in the header text */
 .header-text img {
     max-width: 150px; 
     height: auto; 
@@ -392,6 +426,7 @@ nav4 ul4 li a:hover::after{
     bottom: 20px; 
     right: 20px; 
 }
+/* Styles for the image in the fourth header text */
 .header-text4 img {
     max-width: 150px; 
     height: auto; 
@@ -401,6 +436,7 @@ nav4 ul4 li a:hover::after{
     bottom: 20px; 
     right: 20px; 
 }
+/* Styles for the footer */
 footer {
     position: absolute;
     bottom: 0;
@@ -409,6 +445,7 @@ footer {
     padding: 20px 0;
     text-align: center; 
 }
+/* Styles for the footer paragraph */
 footer p {
     margin: 0; 
     color: white; 
